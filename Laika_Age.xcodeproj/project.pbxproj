@@ -14,6 +14,7 @@
 		BBDB4A311AE4548400B8ABC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBDB4A301AE4548400B8ABC0 /* Images.xcassets */; };
 		BBDB4A341AE4548400B8ABC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBDB4A321AE4548400B8ABC0 /* LaunchScreen.xib */; };
 		BBDB4A401AE4548400B8ABC0 /* Laika_AgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB4A3F1AE4548400B8ABC0 /* Laika_AgeTests.m */; };
+		BBDB4A4A1AE4589C00B8ABC0 /* laika-space-dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBDB4A491AE4589C00B8ABC0 /* laika-space-dog.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		BBDB4A391AE4548400B8ABC0 /* Laika_AgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Laika_AgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDB4A3E1AE4548400B8ABC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBDB4A3F1AE4548400B8ABC0 /* Laika_AgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laika_AgeTests.m; sourceTree = "<group>"; };
+		BBDB4A491AE4589C00B8ABC0 /* laika-space-dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "laika-space-dog.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		BBDB4A231AE4548400B8ABC0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BBDB4A491AE4589C00B8ABC0 /* laika-space-dog.jpg */,
 				BBDB4A241AE4548400B8ABC0 /* Info.plist */,
 				BBDB4A251AE4548400B8ABC0 /* main.m */,
 			);
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBDB4A4A1AE4589C00B8ABC0 /* laika-space-dog.jpg in Resources */,
 				BBDB4A2F1AE4548400B8ABC0 /* Main.storyboard in Resources */,
 				BBDB4A341AE4548400B8ABC0 /* LaunchScreen.xib in Resources */,
 				BBDB4A311AE4548400B8ABC0 /* Images.xcassets in Resources */,
@@ -416,6 +420,7 @@
 				BBDB4A451AE4548400B8ABC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBDB4A461AE4548400B8ABC0 /* Build configuration list for PBXNativeTarget "Laika_AgeTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				BBDB4A481AE4548400B8ABC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
